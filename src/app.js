@@ -53,11 +53,11 @@ let generateExcuse = () => {
 
   return (
     who[whoindx] +
-    "" +
+    " " +
     action[actionindx] +
-    "" +
+    " " +
     what[whatindx] +
-    "" +
+    " " +
     when[whenindx]
   );
 };
